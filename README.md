@@ -28,6 +28,7 @@ Basic syntax:
 
 	encrypt a new message
 		$ sh demsg.sh -e -r <gpg userid> -m <"your message here">
+		
 	decrypt a message received  
 		$ sh demsg.sh -d
 
