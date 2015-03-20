@@ -7,29 +7,29 @@ A bash script GnuPG block text encryption/decryption tool
   
 A script for fast encrypting and decrypting short messages with GnuPG block text
 
-  Tag:
-    -e    encrypt a new message
-    -d    decrypt a message
+    Options:
+        -e    encrypt a new message
+        -d    decrypt a message
   
-  Optional w/ [-e-] encrypt tag:
-    -r    define recipient
-    -m    define short message
-    -c    copy to xclip
-
+    Optional w/ [-e-] encrypt tag:
+        -r    define recipient
+        -m    define short message
+        -c    copy to xclip
 
 Dependencies:
-  Bash    http://www.gnu.org/software/bash/
-  GnuPG   https://www.gnupg.org/
-  
-  Optional:
-  xclip   http://sourceforge.net/projects/xclip/
 
+		Bash    http://www.gnu.org/software/bash/
+		GnuPG   https://www.gnupg.org/
+
+		Optional:
+		xclip   http://sourceforge.net/projects/xclip/
 
 Basic syntax:
-  encrypt a new message
-      $ sh demsg.sh -e -r <gpg userid> -m <"your message here">
-  decrypt a message received  
-      $ sh demsg.sh -d
+
+	encrypt a new message
+		$ sh demsg.sh -e -r <gpg userid> -m <"your message here">
+	decrypt a message received  
+		$ sh demsg.sh -d
 
 
   This script makes it easy to write and read decrypted short messages with GnuPG. The creation of temporary
